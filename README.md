@@ -17,7 +17,7 @@ Image-Segmentation-Breast-Cancer
 <b>Data Augmentation Strategy:</b><br>
  To address the limited size of Breast-Cancer,which contains 210 images and their corresponding masks in Malignant Dataset_BUSI_with_GT, 
  we employed <a href="./generator/ImageMaskDatasetGenerator.py">an offline augmentation tool</a> to generate a pre-augmented dataset, which supports the following augmentation methods.
-<br><br>
+<br>
 <li>Vertical flip</li>
 <li>Horizontal flip</li>
 <li>Rotation</li>
@@ -365,42 +365,47 @@ python ../../../src/TensorflowUNetInferencer.py ./train_eval_infer_aug.config
 References
 </h3>
 <b>1. Breast Ultrasound Images Dataset</b><br>
-<pre>
+<a href="https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset">
 https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset
-</pre>
-
+</a>
+<br>
+<br>
 <b>2. Breast lesion detection using an anchor-free network from ultrasound images with segmentation-based enhancement</b><br>
 Yu Wang & Yudong Yao<br>
-<pre>
+<a href="https://www.nature.com/articles/s41598-022-18747-y">
 https://www.nature.com/articles/s41598-022-18747-y
-</pre>
-
+</a>
+<br>
+<br>
 <b>3. Classification of Breast Cancer Ultrasound Images with Deep Learning-Based Models </b><br>
 Fatih Uysa,and Mehmet Murat Köse<br>
-<pre>
+<a href="https://www.mdpi.com/2673-4591/31/1/8/html">
 https://www.mdpi.com/2673-4591/31/1/8/html
-</pre>
-
+</a>
+<br>
+<br>
 <b>4. A CNN Deep Learning Technique for Prediction of Breast Cancer using Ultrasound Image
 </b><br>
 Atisham Khan and Silky Pareyani<br>
-<pre>
+<a href="https://www.jetir.org/papers/JETIR2303813.pdf">
 https://www.jetir.org/papers/JETIR2303813.pdf
-</pre>
-
+</a>
+<br>
+<br>
 <b>5. Discrimination of Breast Cancer Based on Ultrasound Images and Convolutional Neural Network
 </b><br>
 Rui Du,Yanwei Chen,Tao Li, Liang Shi,Zhengdong Fei,and Yuefeng Li
 <br>
-<pre>
+<a href="https://www.hindawi.com/journals/jo/2022/7733583/">
 https://www.hindawi.com/journals/jo/2022/7733583/
-</pre>
-
+</a>
+<br>
+<br>
 <b>6. EfficientDet-Augmented-Breast-Ultrasound-Images
 </b><br>
 Toshiyuki Arai @antillia.com
 <br>
-<pre>
+<a href="https://github.com/sarah-antillia/EfficientDet-Augmented-Breast-Ultrasound-Images">
 https://github.com/sarah-antillia/EfficientDet-Augmented-Breast-Ultrasound-Images
-</pre>
+</a>
 
