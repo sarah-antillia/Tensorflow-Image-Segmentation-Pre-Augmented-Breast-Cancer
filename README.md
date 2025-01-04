@@ -13,7 +13,6 @@ Breast Ultrasound Images Dataset
 Please see also the first experiment <a href="https://github.com/atlan-antillia/Image-Segmentation-Breast-Cancer">
 Image-Segmentation-Breast-Cancer
 </a>
-
 <br><br>
 <b>Data Augmentation Strategy:</b><br>
  To address the limited size of Breast-Cancer,which contains 210 images and their corresponding masks in Malignant Dataset_BUSI_with_GT, 
@@ -33,12 +32,10 @@ Please see also the following tools <br>
 <li><a href="https://github.com/sarah-antillia/Image-Deformation-Tool">Image-Deformation-Tool</a></li>
 <li><a href="https://github.com/sarah-antillia/Image-Distortion-Tool">Image-Distortion-Tool</a></li>
 <li><a href="https://github.com/sarah-antillia/Barrel-Image-Distortion-Tool">Barrel-Image-Distortion-Tool</a></li>
-
 <br>
 <hr>
 <b>Actual Image Segmentation for Images of 512x512 pixels</b><br>
 As shown below, the inferred masks look similar to the ground truth masks. <br>
-
 <table>
 <tr>
 <th>Input: image</th>
